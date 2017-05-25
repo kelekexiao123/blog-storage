@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        #items {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .item-row {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex: 0 0 100%;
+        }
+
+        .container {
+            height: 200px;
+            width: 200px;
+            border: 10px solid black;
+            border-radius: 25%;
+        }
+
+
+        .container1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+
+        .container3 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .row3-1 {
+            display: flex;
+        }
+
+        .row3-2 {
+            display: flex;
+            align-self: center;
+        }
+
+        .row3-3 {
+            display: flex;
+            align-self: flex-end;
+        }
+
+        .container4 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .row4 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex: 0 0 100%;
+        }
+
+        .container5 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .row5 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex: 0 0 100%;
+        }
+
+        .container6 {
+            display: flex;
+        }
+
+        .row6 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            flex: 0 0 50%;
+        }
+
+        .container7 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .row7 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex: 0 0 100%;
+        }
+
+        .container8 {
+            display: flex;
+        }
+
+        .row8 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 0 0 50%;
+        }
+
+
+        .container9 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .row9 {
+            display: flex;
+            flex: 0 0 100%;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .circle {
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+            background-color: blue;
+        }
+
+        .circle1 {
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+            background-color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="items">
+
+        <div class="item-row">
+            <div class="container container1">
+                <div class="circle1"></div>
+            </div>
+
+            <div class="container container2">
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+
+            <div class="container container3">
+                <div class="row3-1">
+                    <div class="circle"></div>
+                </div>
+                <div class="row3-2">
+                    <div class="circle"></div>
+                </div>
+                <div class="row3-3">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="item-row">
+
+            <div class="container container4">
+                <div class="row4">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="row4">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="container container5">
+                <div class="row5">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="row5">
+                    <div class="circle"></div>
+                </div>
+                <div class="row5">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="container container6">
+                <div class="row6">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="row6">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-row">
+
+            <div class="container container7">
+                <div class="row7">
+                    <div class="circle"></div>
+                </div>
+                <div class="row7">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="row7">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="container container8">
+                <div class="row8">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="row8">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="container container9">
+                <div class="row9">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="row9">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="row9">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+<script>
+    window.onresize = function () {
+        document.getElementById("items").style.height = window.innerHeight + 'px';
+    }
+
+</script>
+
+</html>
